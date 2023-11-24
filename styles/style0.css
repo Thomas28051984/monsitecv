@@ -1,0 +1,287 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+body {
+    color: rgb(246, 246, 250);
+    margin: 0;
+    display: flex;
+    background-color: #111111;
+}
+
+.page-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+}
+
+.gauche {
+    padding: 15px;
+    margin-top: 50px;
+    width: 15%;
+    background-image: url('../image/background-mosaic.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.centre {
+    padding: 15px;
+    margin-top: 50px;
+    width: 65%;
+    background-image: url("../image/texture-bakground.jpg");
+    display: flex;
+    flex-direction: column;
+}
+
+.droite {
+    margin-top: 50px;
+    padding: 15px;
+    width: 20%;
+    background-image: url('../image/background-mosaic.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_profil {
+    display: flex;
+    justify-content: center;
+}
+
+.cv {
+    text-align: center;
+
+}
+
+.titre {
+    text-align: center;
+    border-style: dashed solid;
+    border-radius: 90px;
+
+    border-color: gold;
+}
+
+.objectifs {
+    text-align: center;
+}
+
+.colonnes {
+    column-count: 3;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.h3 {
+    margin-left: 5%;
+}
+
+.informations {
+    text-align: center;
+}
+
+.qualites {
+    margin-left: 5%;
+}
+
+.competences {
+    margin-left: 5px;
+}
+
+.photo_dev {
+    display: flex;
+    justify-content: center;
+}
+
+.texte-centre {
+    line-height: 2.5;
+}
+
+#logiciels {
+    margin-left: 5%;
+}
+
+#languages_web {
+    margin-left: 5%;
+}
+
+#langues {
+    margin-left: 5%;
+}
+
+iframe {
+    width: 100%;
+    height: 100px;
+}
+
+.tigre {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #f3bc09;
+    padding: 10px;
+    border-radius: 40px;
+    flex-direction: column;
+}
+
+.grid-item {
+    background-color: rgba(8, 8, 8, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.contact {
+    border: #f60404 solid 5px;
+    margin: 0 auto;
+    width: 100px;
+    flex-direction: column;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube {
+    display: flex;
+}
+
+#portefolio,
+a {
+    background-color: orangered;
+    color: white;
+    border-radius: 50% 20% / 10% 40%;
+    height: 50%;
+}
+
+/* Style de base pour le formulaire */
+form {
+    max-width: 400px;
+    margin: 50% auto;
+    padding: 50px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+/* Style des champs de texte et du texte area */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+    border-radius: 10px;
+}
+
+/* Style du bouton de validation */
+button {
+    background-color: orangered;
+    color: white;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+/* Style du message d'erreur */
+#messageErreur {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style pour les messages de validation (optionnel) */
+#messageValidation {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+

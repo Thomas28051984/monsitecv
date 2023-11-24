@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/style0.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/navbar.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./js/validateForm.js" deferf></script>
+    <title>Formulaire contact</title>
+</head>
+
+<header class="page-header">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Accueil</a>
+        <a href="form_contact.html">contact</a>
+        <a href="#about">A propos</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+</header>
+
+<body>
+    
+        <form id="monFormulaire" method="post" action="./php/traitement_formulaire.php">
+            <p style="color: red;">Ne fonctionne pas pour le moment!</p>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom"><br><br>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"><br><br>
+        
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet"><br><br>
+        
+            <label for="message">Message :</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="button" onclick="validerFormulaire()">Valider</button>
+        </form>
+
+        <p id="messageErreur"></p>
+    
+</body>
+
+</html>
+
+</html>
