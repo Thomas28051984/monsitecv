@@ -139,7 +139,7 @@ body {
 }
 
 .colonnes {
-    column-count: 3;
+    column-count: 4;
 }
 
 .h1 {
@@ -217,16 +217,15 @@ iframe {
 }
 
 #map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .youtube {
     display: flex;
 }
 
-#portefolio,
+.portefolio,
 a {
     background-color: orangered;
     color: white;
@@ -239,7 +238,7 @@ form {
     max-width: 400px;
     margin: 50% auto;
     padding: 50px;
-    background: #f5f5f5;
+    background-image: url('../image/background-mosaic.jpg');
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -281,6 +280,14 @@ button {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.message_construction{
+	text-align: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
 
 
 
