@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-image: url('../image/background-mosaic.jpg');
 }
 
 .topnav a {
@@ -119,7 +119,7 @@ body {
 .photo_profil {
     display: flex;
     justify-content: center;
-}
+    }
 
 .cv {
     text-align: center;
@@ -165,7 +165,7 @@ body {
 .photo_dev {
     display: flex;
     justify-content: center;
-}
+    }
 
 .texte-centre {
     line-height: 2.5;
@@ -219,6 +219,7 @@ iframe {
 #map {
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 
 .youtube {
@@ -235,7 +236,7 @@ a {
 
 /* Style de base pour le formulaire */
 form {
-    max-width: 400px;
+    
     margin: 50% auto;
     padding: 50px;
     background-image: url('../image/background-mosaic.jpg');
@@ -286,6 +287,20 @@ button {
     font-size: 24px;
     font-family: Arial, sans-serif;
     color: #ffffff;
+}
+
+.formulaire_contact{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#languages_web.li.img{
+    height: 30px;
+    width: 30px;
+}
+
+span{
+    color: red;
 }
 
 

@@ -25,13 +25,12 @@
 
 <body>
 
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <h2 class="mb-4">Contactez-moi</h2>
-                <form action="send_email.php" method="post">
+    <div class="formulaire_contact">
+                      
+                <form action="./php/send_email.php" method="post">
+                    <h2 class="mb-4">Contactez-moi</h2>
                     <div class="form-group">
-                        <label for="name">Nom</label>
+                        <label for="name">Nom-Prénom</label>
                         <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="form-group">
@@ -42,14 +41,11 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <button type="submit" class="send_email">Envoyer</button>
                 </form>
-            </div>
-        </div>
     </div>
     
 </body>
 
 </html>
 
-</html>
