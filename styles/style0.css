@@ -134,6 +134,14 @@ body {
     border-color: gold;
 }
 
+.presentation {
+    text-align: center;
+    border-style: solid;
+    border-radius: 45px;
+    background-color: black;
+    border-color: gold;
+}
+
 .objectifs {
     text-align: center;
 }
@@ -302,6 +310,12 @@ button {
 span{
     color: red;
 }
+
+.colonnes{
+    column-count: 2;
+}
+
+
 
 
 
