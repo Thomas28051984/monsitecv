@@ -140,6 +140,7 @@ body {
     border-radius: 45px;
     background-color: black;
     border-color: gold;
+    border-width: 10px;
 }
 
 .objectifs {
@@ -313,6 +314,10 @@ span{
 
 .colonnes{
     column-count: 2;
+}
+
+.body_contact{
+    background-image: url("../image/texture-bakground.jpg");
 }
 
 
