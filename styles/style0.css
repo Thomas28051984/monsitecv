@@ -196,7 +196,15 @@ a {
     text-decoration: none;
 }
 
+.mesobjectifs{
+    display: flex;
+    flex-direction: row;
 
+}
+
+.imgcible{
+    height: 100px;
+}
 
 
 
